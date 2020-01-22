@@ -1,6 +1,6 @@
 /* My First Website Ever */
 
-/* Kübra - 2020 */
+/* Kübra Çetinkaya - January 2020  */
 
 
 * {
@@ -33,18 +33,10 @@ h1 {
 }
 
 
-hr {
-    border: .4px #7F7F7F transparent;
-    opacity: .4;
-
-}
-
-
-
 #nav li a {
     color: rgb(158, 157, 157);
     text-decoration: none;
-    padding: 280px;
+    padding: 180px;
 
 }
 
@@ -123,35 +115,11 @@ h2 {
 }
 
 
-#author-box {
-    border-top: 1px solid RGB(0, 0, 0, .125);
-    padding-top: 10px;
-
-}
-
 .author-text {
     margin-left: 10px;
     text-align: center;
 }
 
-
-#img2 {
-
-    width: 170px;
-    height: 170px;
-    border-radius: 4px;
-    margin-left: 250px;
-    padding: 20px;
-}
-
-#img2 p {
-
-    line-height: 22px;
-    font-size: 13px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-
-}
 
 h4 {
     font-size: 17px;
@@ -160,51 +128,29 @@ h4 {
     text-align: center;
 }
 
-#about-me {
-
-    background: #FFFF;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-bottom: 25px;
-    margin-right: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 8px 2px rgba(96, 99, 102, 0.15);
-
-    padding-bottom: 15px;
-
-}
-
-
 #second a {
-
+    margin: 80px;
+    padding: 50px 5px;
     color: gray;
     border-radius: 5px;
     text-decoration: none;
-    margin: 100px;
     opacity: 0.9;
-    padding-bottom: 20px;
+
 
 }
 
-#share a:hover {
+#second a:hover {
     opacity: 0.6;
 
 }
 
-#second {
-
-
+#second .tags {
     background: #FFFF;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-bottom: 5px;
+    padding: 3px;
     border-radius: 5px;
-    box-shadow: 0 2px 8px 2px rgba(96, 99, 102, 0.15);
     text-decoration: none;
-    line-height: 22px;
+    line-height: 20px;
 }
-
 
 .btn-light {
     border: 1px;
@@ -216,11 +162,6 @@ h4 {
 #blog-post-container-about {
     width: 70%;
     margin: auto;
-}
-
-.my-image {
-    display: inline;
-
 }
 
 .footer img {
@@ -237,25 +178,24 @@ h4 {
     height: 300px;
 }
 
-#other-posts {
-
-    float: right;
-    margin-right: 120px;
-    padding-top: 0px;
-    padding-bottom: 50px;
-    padding-left: 30px;
+#comment {
+    width: 50%;
+    margin-left: 230px;
+    border: transparent;
+    box-shadow: 0 2px 8px 2px rgba(96, 99, 102, 0.15);
+    border-radius: 5px;
 
 }
 
-#other-posts .box {
-    visibility: hidden;
-    background: #FFFF;
-    margin-left: 16px;
-    line-height: 22px;
-    margin-bottom: 20px;
-    margin-right: 5px;
-    border-radius: 5px;
-    box-shadow: 0 2px 8px 2px rgba(96, 99, 102, 0.15);
-    padding-bottom: 15px;
-    box-sizing: border-box;
-    position: relative;
+input[type=submit] {
+    margin-left: 410px;
+    padding: 16px 32px;
+    background-color: #fff;
+    color: gray;
+    border: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    float: inline-start;
+
+
+}
