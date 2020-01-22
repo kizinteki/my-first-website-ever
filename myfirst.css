@@ -1,0 +1,261 @@
+/* My First Website Ever */
+
+/* Kübra - 2020 */
+
+
+* {
+    margin: 10;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Montserrat', 'Lato';
+    font-size: 10px;
+    color: #7F7F7F;
+    line-height: 135%;
+    background: #FFFF;
+
+}
+
+#nav {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 55px;
+    margin-top: 20px;
+
+}
+
+
+hr {
+    border: .4px #7F7F7F transparent;
+    opacity: .4;
+
+}
+
+
+
+#nav li a {
+    color: rgb(158, 157, 157);
+    text-decoration: none;
+    padding: 280px;
+
+}
+
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 400;
+
+}
+
+.container {
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+}
+
+#blog-post-container {
+    width: 65%;
+    margin: auto;
+}
+
+.blog-title {
+    font-weight: 700;
+    font-size: 15px;
+    text-align: right;
+}
+
+.blog-text {
+    font-size: 10px;
+    line-height: 22px;
+    text-align: justify;
+
+}
+
+.blog-title a {
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.blog-title a:hover {
+    color: #7F7F7F;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.mt20 {
+    margin-top: 20px;
+
+}
+
+.box {
+    background: #FFFF;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 2px rgba(96, 99, 102, 0.15);
+
+}
+
+.blog-post img {
+    width: 100%;
+    width: 313.9px;
+    height: 313.9px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.blog-post img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+#author-box {
+    border-top: 1px solid RGB(0, 0, 0, .125);
+    padding-top: 10px;
+
+}
+
+.author-text {
+    margin-left: 10px;
+    text-align: center;
+}
+
+
+#img2 {
+
+    width: 170px;
+    height: 170px;
+    border-radius: 4px;
+    margin-left: 250px;
+    padding: 20px;
+}
+
+#img2 p {
+
+    line-height: 22px;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+h4 {
+    font-size: 17px;
+    padding: 15px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#about-me {
+
+    background: #FFFF;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 2px rgba(96, 99, 102, 0.15);
+
+    padding-bottom: 15px;
+
+}
+
+
+#second a {
+
+    color: gray;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 100px;
+    opacity: 0.9;
+    padding-bottom: 20px;
+
+}
+
+#share a:hover {
+    opacity: 0.6;
+
+}
+
+#second {
+
+
+    background: #FFFF;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 2px rgba(96, 99, 102, 0.15);
+    text-decoration: none;
+    line-height: 22px;
+}
+
+
+.btn-light {
+    border: 1px;
+    background-color: #fff;
+    color: gray;
+    font-size: 10px;
+}
+
+#blog-post-container-about {
+    width: 70%;
+    margin: auto;
+}
+
+.my-image {
+    display: inline;
+
+}
+
+.footer img {
+    display: absolute;
+    float: right;
+    width: 25%;
+    height: 300px;
+}
+
+.foot img {
+    display: relative;
+    float: left;
+    width: 20%;
+    height: 300px;
+}
+
+#other-posts {
+
+    float: right;
+    margin-right: 120px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+
+}
+
+#other-posts .box {
+    visibility: hidden;
+    background: #FFFF;
+    margin-left: 16px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 2px rgba(96, 99, 102, 0.15);
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    position: relative;
